@@ -32,7 +32,7 @@ html {
 
 header {
 
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     left: 0;
     right: 0;
@@ -111,7 +111,7 @@ header .navbar .active {
 
 .container {
 
-    background: url(pictures/image2.jpg);
+    background: url(pictures/image20.jpg);
     width: 100%;
     padding-top: 7.5rem;
     background-position: center;
@@ -324,6 +324,112 @@ header .navbar .active {
 
     width: 100%;
 }
+
+.ourteam-section {
+
+    padding: 10rem;
+
+}
+
+
+
+.ourteam-section h2 {
+
+    padding: 2rem;
+    font-size: 3rem;
+    text-align: center;
+
+}
+
+
+
+.ourteam-section h2 span {
+
+    color: var(--fontcolor);
+
+}
+
+
+.ourteam-inner {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+
+}
+
+.service-box {
+
+    flex: 1 1 250px;
+
+
+
+}
+
+
+
+
+.ourteam-inner .section-box img {
+
+    width: 50%;
+    /* border-radius: 50%; */
+
+}
+
+.section-box h3 {
+
+    padding: 1rem 0;
+    font-size: 2rem;
+
+}
+
+
+.team-social-links i {
+
+    color: var(--fontcolor);
+    font-size: 2rem;
+    padding: 1rem 0;
+
+}
+
+
+
+.main-footer {
+
+    display: flex;
+    justify-content: space-between;
+    background: #222;
+    padding: 2rem 9%;
+
+    flex-wrap: wrap;
+
+}
+
+.inner-footer {
+
+    color: white;
+    font-size: 2rem;
+    padding: 2rem 0;
+
+}
+
+
+.inner-footer a {
+
+    display: block;
+    /* text-align: center; */
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+
+}
+
+
+
+
+
 
 
 
