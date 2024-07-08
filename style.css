@@ -32,7 +32,7 @@ html {
 
 header {
 
-    /* position: fixed; */
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -44,8 +44,6 @@ header {
     align-items: center;
     background: white;
     /* box-shadow: 0 1rem 1rem rgba(0, 0, 0, .1); */
-
-
 
 }
 
@@ -107,11 +105,9 @@ header .navbar .active {
 
 }
 
-
-
 .container {
 
-    background: url(pictures/image12.jpg);
+    background: url(pictures/image8.jpg);
     width: 100%;
     padding-top: 7.5rem;
     background-position: center;
@@ -143,8 +139,6 @@ header .navbar .active {
 }
 
 
-
-
 .container .main-text button {
 
     padding: 1.5rem 3.5rem;
@@ -163,7 +157,6 @@ header .navbar .active {
 }
 
 
-
 #ourservices {
 
     color: white;
@@ -171,9 +164,6 @@ header .navbar .active {
     padding: 2rem 0;
     text-align: center;
 }
-
-
-
 
 
 .inner-service-section {
@@ -216,8 +206,6 @@ header .navbar .active {
 
     color: white;
     font-size: 1.5rem;
-
-
 }
 
 .work-section {
@@ -239,7 +227,6 @@ header .navbar .active {
 }
 
 
-
 .inner-work-setion p {
 
     font-size: 15px;
@@ -250,15 +237,6 @@ header .navbar .active {
 }
 
 
-
-/* 
-.text-work {
-
-    padding: 1rem 0;
-    padding-bottom: 2rem;
-} */
-
-
 .myimages {
 
 
@@ -267,9 +245,6 @@ header .navbar .active {
     grid-template-columns: 1fr 1fr;
     padding: 1rem;
     gap: 1rem;
-
-
-    /* flex-wrap: wrap; */
 
 }
 
@@ -338,9 +313,6 @@ header .navbar .active {
 }
 
 
-
-
-
 .main-gallery {
 
     display: flex;
@@ -361,7 +333,6 @@ header .navbar .active {
 }
 
 
-
 .ourteam-section h2 {
 
     padding: 2rem;
@@ -369,7 +340,6 @@ header .navbar .active {
     text-align: center;
 
 }
-
 
 
 .ourteam-section h2 span {
@@ -393,11 +363,7 @@ header .navbar .active {
 
     flex: 1 1 250px;
 
-
-
 }
-
-
 
 
 .ourteam-inner .section-box img {
@@ -422,7 +388,6 @@ header .navbar .active {
     padding: 1rem 0;
 
 }
-
 
 
 .main-footer {
@@ -456,14 +421,6 @@ header .navbar .active {
 }
 
 
-
-
-
-
-
-
-
-
 @media (max-width:768px) {
 
     html {
@@ -471,6 +428,7 @@ header .navbar .active {
         font-size: 50%;
 
     }
+
 
     header #menu_bars {
 
@@ -480,8 +438,8 @@ header .navbar .active {
     header .navbar {
 
         position: absolute;
-        /* top: 100%; */
-        top: 10%;
+        top: 100%;
+        /* top: 10%; */
         left: 100%;
         right: 0;
         background: var(--backgroundcolor);
@@ -502,12 +460,10 @@ header .navbar .active {
 
     }
 
-
     .inner-work-setion h2 {
 
         margin-top: 40%;
     }
-
 
     .container .main-text {
 
@@ -516,13 +472,11 @@ header .navbar .active {
 
     }
 
-
     .work-section {
 
         display: grid;
         grid-template-columns: 1fr;
     }
-
 
 
     .myimages img {
@@ -531,11 +485,22 @@ header .navbar .active {
 
     }
 
-
-
     .btn {
 
         display: block;
+    }
+
+}
+
+
+@media (max-width:500px) {
+
+
+
+    .work-section .myimages {
+
+        display: grid;
+        grid-template-columns: 1fr;
     }
 
 
